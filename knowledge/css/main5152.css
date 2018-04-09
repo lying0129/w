@@ -444,7 +444,7 @@ li.comment > article .avatar {
 .support-widget {
   border: 1px solid #e9e6c4;
   padding: 10px 100px 10px 20px;
-  background: #fefbdc url("../images/support.png") no-repeat 95% 20px;
+  background: #fefbdc url("../images/notice.png") no-repeat 95% 20px;
   margin-bottom: 20px;
 }
 .support-widget h3 {
@@ -455,6 +455,7 @@ li.comment > article .avatar {
 .quick-links-widget {
   border: 1px solid #d7d9dc;
   padding: 10px 15px 15px;
+  margin-bottom: 20px;
 }
 .quick-links-widget h3 {
   margin: 0;
@@ -534,6 +535,12 @@ ul.articles .article-entry {
 ul.articles .article-entry.standard {
   background: url("../images/standard.png") no-repeat 0 3px;
 }
+ul.articles .article-entry.question {
+  background: url("../images/QA4.jpg") no-repeat 0 3px;
+}
+ul.articles .article-entry.answered {
+  background: url("../images/answered.png") no-repeat 0 3px;
+}
 ul.articles .article-entry.video {
   background: url("../images/video.png") no-repeat 0 3px;
 }
@@ -572,6 +579,17 @@ ul.articles li.article-entry:last-child {
   border: 1px solid #f2f2f2;
   border-bottom: none;
   background: url("../images/like.png") no-repeat 6px 8px;
+}
+.article-entry .commented {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  line-height: 22px;
+  font-weight: 600;
+  padding: 3px 5px 3px 20px;
+  border: 1px solid #f2f2f2;
+  border-bottom: none;
+  background: url("../images/standard-tiny.png") no-repeat 6px 8px;
 }
 .article-entry:hover .like-count {
   background: url("../images/like.png") no-repeat 6px -22px;
