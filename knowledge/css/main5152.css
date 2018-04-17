@@ -601,7 +601,17 @@ p.tagsTitle_title{
   text-align: center;
 }
 .comment{
-  margin-left: 200px;
+  margin-left: 135px;
+  display: none;
+}
+.commentArea{
+  width: 90% !important;
+}
+.commentedArea{
+  margin-left: 170px;
+  width: 80% !important;
+  word-break: break-all;
+   
 }
 .news {
   margin-bottom: 20px;
@@ -896,7 +906,13 @@ h1.search-title span {
   background: url("../images/like.png") no-repeat 6px -22px;
   color: #395996;
 }
-
+/*exercise--------------------------*/
+.exercise{
+  margin-left: 160px;
+}
+.exerciseMain{
+  width: 90% !important;
+}
 /* FAQs --------------------------------------------------------------------------------------------------------------*/
 .faq-item {
   padding: 12px 25px 10px 45px;

@@ -66,9 +66,9 @@
                 </div>
                 <!-- End of Header -->
 
-                <div class="comment">
+                <div class="comment" id="comment">
 
-                        <h3>吐槽</h3>
+                        <h5>留言</h5>
 
                         <div class="cancel-comment-reply">
                                 <a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Click here to cancel reply.</a>
@@ -76,35 +76,63 @@
 
 
                         <form action="#" method="post" id="commentform">
- 
+  
                                 <div>
-                                        <label for="author">姓名 *</label>
-                                        <input class="span4" type="text" name="author" id="author" value="" size="22">
+                                        <label for="comment"> </label>
+                                        <textarea class="span8 commentArea" name="comment" id="comment" cols="58" rows="10"></textarea>
                                 </div>
 
                                 <div>
-                                        <label for="email">电话 *</label>
-                                        <input class="span4" type="text" name="email" id="email" value="" size="22" >
-                                </div>
-
-                                <div>
-                                        <label for="url">微信</label>
-                                        <input class="span4" type="text" name="url" id="url" value="" size="22" >
-                                </div>
-
-
-                                <div>
-                                        <label for="comment">吐槽</label>
-                                        <textarea class="span8" name="comment" id="comment" cols="58" rows="10"></textarea>
-                                </div>
-
-                                <div>
-                                        <input class="btn" name="submit" type="submit" id="submit"  value="提交">
+                                        <input class="btn" name="submit" type="submit" id="submit"  value="发表" onclick="hideComment()">
                                 </div>
 
                         </form>
 
                 </div>
+
+                <!-- Basic Home Page Template -->
+                <div class="row separator">
+                        <section class="span4 articles-list commentedArea">
+                        <h5 onclick="showComment()">我要留言</h5> 
+                        <ul class="articles">
+                                <li>
+                                        <h4>留言留言留言留言留言留言留言留留言留言留言留言留言留言留言留言留言留言留言留言留言留言言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言</h4>
+                                        <span class="article-meta"> 
+                                                <a href="#" title="">圣斗士</a>
+                                                于 2018/04/09</span> 
+                                </li>
+                                <li>
+                                        <h4>留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言</h4>
+                                        <span class="article-meta"> 
+                                                <a href="#" title="">圣斗士</a>
+                                                于 2018/04/09</span> 
+                                </li>
+                                <li>
+                                        <h4>留言留言留言留言留言留言留言留言留言留言留言留言留言留留言留言留言留言留言留言留言留言留言言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言言</h4>
+                                        <span class="article-meta"> 
+                                                <a href="#" title="">圣斗士</a>
+                                                于 2018/04/09</span> 
+                                </li>
+                                <li>
+                                        <h4>留言留言留言留言留言留言留言留言留言留言留言留言留言留留言留言留言留言留言留言留言留言留言言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言言</h4>
+                                        <span class="article-meta"> 
+                                                <a href="#" title="">圣斗士</a>
+                                                于 2018/04/09</span> 
+                                </li>
+                                <li>
+                                        <h4>留言留言留言留言留言留言留言留言留言留言留言留言留言留言</h4>
+                                        <span class="article-meta"> 
+                                                <a href="#" title="">圣斗士</a>
+                                                于 2018/04/09</span> 
+                                </li>
+                                <li>
+                                        <h4>留言留言留言留言留言留言留言留言留言留言留言留言留言留留言留言留言留言留言留言留言留言留言言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言留言言</h4>
+                                        <span class="article-meta"> 
+                                                <a href="#" title="">圣斗士</a>
+                                                于 2018/04/09</span> 
+                                </li>
+                        </ul>
+                </section>
 
                 <a href="#top" id="scroll-top"></a>
 
@@ -117,6 +145,7 @@
                 <script type='text/javascript' src='js/jquery.form.js'></script>
                 <script type='text/javascript' src='js/jquery.validate.min.js'></script>
                 <script type='text/javascript' src='js/custom.js'></script>
+                <script type='text/javascript' src='js/comment.js'></script>
 
         </body>
 </html>
