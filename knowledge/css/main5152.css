@@ -617,6 +617,29 @@ p.tagsTitle_title{
   margin-bottom: 20px;
   margin-top: 50px;
 }
+.treeShuxian{
+  background: url("../images/shuxian.jpg") repeat-y 0 3px;
+  background-size: 100% auto;
+  width: 5px;
+  height: 100px;
+  margin: 0 10 0 130px;
+  float: left;
+}
+.showPanel{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  background:#ffffff;
+  border:solid 1px #c3c3c3;
+  display:none;
+}
+.flip{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  background: #ffffff;
+  border:solid 1px #c3c3c3;
+}
 ul.articles .article-entry.question {
   background: url("../images/QA4.jpg") no-repeat 0 3px;
 }
