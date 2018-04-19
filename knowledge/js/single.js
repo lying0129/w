@@ -3,4 +3,5 @@ function showOther(){
 	$(".showPanel").slideToggle("slow");
     $(".xs1").toggle();
     $(".xs2").toggle();
+    $(".flip").hide();
 }

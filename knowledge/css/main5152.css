@@ -628,10 +628,9 @@ p.tagsTitle_title{
 .showPanel{
   margin:0px;
   padding:5px;
-  text-align:center;
   background:#ffffff;
-  border:solid 1px #c3c3c3;
   display:none;
+  margin-left: -5px;
 }
 .flip{
   margin:0px;
@@ -639,6 +638,10 @@ p.tagsTitle_title{
   text-align:center;
   background: #ffffff;
   border:solid 1px #c3c3c3;
+}
+ol.write
+{
+  line-height: 50px;
 }
 ul.articles .article-entry.question {
   background: url("../images/QA4.jpg") no-repeat 0 3px;
